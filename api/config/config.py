@@ -5,10 +5,9 @@ from datetime import timedelta
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
-
-# uri = config('DATABASE_URL') # or other relevant config var
-# if uri.startswith('postgres://'):
-#     uri = uri.replace('postgres://', 'postgresql://', 1)
+uri = os.environ.get('DATABASE_URL') # or other relevant config var
+if uri and uri.startswith('postgres://'):
+    uri = uri.replace('postgres://', 'postgresql://', 1)
 
 
 class Config:
@@ -34,8 +33,9 @@ class TestConfig(Config):
 
 class ProdConfig(Config):
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    # SQLALCHEMY_DATABASE_URI = uri
+    SQLALCHEMY_DATABASE_URI = uri
     DEBUG = config('DEBUG', False, cast=bool)
+    
 
 
 config = {
