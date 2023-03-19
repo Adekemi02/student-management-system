@@ -21,6 +21,8 @@ admin_model = admin_ns.model('Admin', {
     }
 )
 
+#   In production you comment this route 
+#   and create admin from the terminal
 @admin_ns.route('/create_admin')
 class CreateAdminView(Resource):
     @admin_ns.doc(description='Create a new admin user from the admin dashboard')
