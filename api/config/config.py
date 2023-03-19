@@ -17,7 +17,7 @@ class Config:
 
 
 class DevConfig(Config):
-    DEBUG = config("FLASK_DEBUG")
+    DEBUG = True
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_ECHO = True
     SQLALCHEMY_DATABASE_URI = "sqlite:///"+os.path.join(BASE_DIR, "db.sqlite3")
