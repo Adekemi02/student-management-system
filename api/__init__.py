@@ -1,5 +1,6 @@
 from flask import Flask
 from .config.config import config_dict
+from dotenv import load_dotenv
 from .utils import db
 from .utils.blocklist import BLACKLIST
 from flask_jwt_extended import JWTManager
@@ -17,6 +18,8 @@ from http import HTTPStatus
 
 def create_app(config=config_dict['dev']):
     app = Flask(__name__)
+
+    load_dotenv()
 
     app.config.from_object(config)
 
