@@ -38,7 +38,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-student-mgt-api">About Student Management API</a>
+      <a href="#about-student-management-api">About Student Management API</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
