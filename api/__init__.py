@@ -84,8 +84,8 @@ def create_app(config=config_dict['dev']):
     
     api.add_namespace(admin_ns, path='/admin')
     api.add_namespace(auth_ns, path='/auth')
-    api.add_namespace(student_ns)
-    api.add_namespace(course_ns)
+    api.add_namespace(student_ns, path='/student')
+    api.add_namespace(course_ns, path='/course')
     
     @app.shell_context_processor
     def make_shell_context():
