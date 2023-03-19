@@ -179,3 +179,32 @@ python manage.py create_admin
 9. This will prompt a user input in your terminal where you input your details and then create the admin user for you.
 
 10. With this onlythe admin can create the admin user.
+
+
+## Sample
+
+<div align="center">
+  <h1><img src="./images/student_mgt_picture.jpg" alt="Logo">
+  </h1>
+</div>
+
+## License
+
+Distributed under the MIT License. See <a href="https://github.com/Adekemi02/flaskpizza-api/blob/main/LICENSE">LICENSE</a> for more information.
+
+
+## Contact
+
+Barakat Adisa - [@adisa_adekhemie](https://twitter.com/adisa_adekhemie) - adisabarakatadekemi@gmail.com
+
+Project Link: [STUDENT MANAGEMENT API](https://github.com/Adekemi02/student-management-system)
+
+
+## Acknowledgements
+
+This project was made possible by:
+
+* [AltSchool Africa School of Engineering](https://altschoolafrica.com/schools/engineering)
+* [Caleb Emelike's Pizza API](https://github.com/CalebEmelike)
+* [GitHub Student Pack](https://education.github.com/globalcampus/student)
+* Altschool Africa Python Backend Community
