@@ -4,8 +4,7 @@ from datetime import timedelta
 
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
-
-uri = os.environ.get('DATABASE_URL') # or other relevant config var
+uri = config('DATABASE_URL', default=None)  # heroku config
 if uri and uri.startswith('postgres://'):
     uri = uri.replace('postgres://', 'postgresql://', 1)
 

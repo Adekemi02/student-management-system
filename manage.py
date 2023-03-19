@@ -1,6 +1,6 @@
 import getpass
 from flask.cli import FlaskGroup
-from api import create_app
+from .api import create_app
 from api.models.users import Admin
 from werkzeug.security import generate_password_hash
 
