@@ -4,7 +4,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <a href="https://github.com/Adekemi02/flaskpizza-api">
+  <a href="https://github.com/Adekemi02/student-management-system">
     
   </a>
 </div>
@@ -18,13 +18,13 @@
 
 <div>
   <p align="center">
-    <a href="https://github.com/Adekemi02/flaskpizza-api#readme"><strong>Explore the Docs »</strong></a>
+    <a href="https://github.com/Adekemi02/student-management-system#readme"><strong>Explore the Docs »</strong></a>
     <br />
-    <a href="https://github.com/Adekemi02/flaskpizza-api/blob/main/static/snapshot.png">View Demo</a>
+    <a href="https://github.com/Adekemi02/student-management-system/blob/main/static/snapshot.png">View Demo</a>
     ·
-    <a href="https://github.com/Aadekemi/flaskpizza-api/issues">Report Bug</a>
+    <a href="https://github.com/Aadekemi/student-management-system/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Adekemi02/flaskpizza-api/issues">Request Feature</a>
+    <a href="https://github.com/Adekemi02/student-management-system/issues">Request Feature</a>
   </p>
 </div>
 
