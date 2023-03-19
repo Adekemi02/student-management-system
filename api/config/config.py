@@ -6,7 +6,7 @@ import re
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
-uri = config('DATABASE_URL', sslmode='require')  # heroku config
+uri = config('DATABASE_URL')  # heroku config
 if uri and uri.startswith('postgres://'):
     uri = uri.replace('postgres://', 'postgresql://', 1)
 
