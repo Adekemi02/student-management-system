@@ -58,7 +58,7 @@
 <!-- About the API --->
 ## About Student Management API
 
-This is a web application built with Flask and SQLAlchemy that allows users to manage students and their data.
+This is a web application built with Flask and SQLAlchemy that allows admins or staff to manage students and their data.
 The Student Management API is a RESTful API which enables users particularly student to register accounts, register for a course and view thier grades of each course they registered. CRUD operations can be carried out on the student data, with an easy-to-use Swagger UI setup for testing and integration with the front end.
 
 Admin creates the student regisration ID, each student is assigned a registration ID when they register their details. Admin perform majority of operations on this app. To be an admin, you will have to register as an admin
