@@ -9,7 +9,9 @@
   </a>
 </div>
 
+---
 
+<!---Project Logo --->
 
 <div align="center">
   <h1><img src="./images/student_mgt.PNG" alt="Logo" width="90%" height="40%">
@@ -27,6 +29,10 @@
     <a href="https://github.com/Adekemi02/student-management-system/issues">Request Feature</a>
   </p>
 </div>
+
+---
+
+<!--- Table of Contents --->
 
 <details>
   <summary>Table of Contents</summary>
@@ -47,6 +53,9 @@
   <p align="right"><a href="#readme-top">back to top</a></p>
 </details>
 
+---
+
+<!-- About the API --->
 ## About Student Management API
 
 This is a web application built with Flask and SQLAlchemy that allows users to manage students and their data.
@@ -58,17 +67,16 @@ Admin can register either through the route or you clone this repository in your
 
 This student management API was built with Python's Flask-RESTX by  by <a href="https://www.github.com/Adekemi02">Barakat Adisa</a> during Backend Engineering 3rd Semester Exam at <a href="https://altschoolafrica.com/schools/engineering">AltSchool Africa</a> 
 
+---
 
-
+<!-- ### Built With: -->
 ## Built with
 
-### Built With:
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+---
 
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-
-
+<!-- Lessons from the Project -->
 ## Lessons Learned
 
 Creating this API, I was able to learn and practice:
@@ -83,7 +91,9 @@ Creating this API, I was able to learn and practice:
 * User Authentication
 * User Authorization
 
+---
 
+<!-- GETTING STARTED -->
 ## Usage
 
 To use this API, follow these steps:
@@ -180,7 +190,9 @@ python manage.py create_admin
 
 10. With this onlythe admin can create the admin user.
 
+---
 
+<!-- Sample Screenshot -->
 ## Sample
 
 <div align="center">
@@ -188,18 +200,23 @@ python manage.py create_admin
   </h1>
 </div>
 
+---
+
+<!-- License -->
 ## License
 
 Distributed under the MIT License. See <a href="https://github.com/Adekemi02/flaskpizza-api/blob/main/LICENSE">LICENSE</a> for more information.
 
-
+<!-- Contact -->
 ## Contact
 
 Barakat Adisa - [@adisa_adekhemie](https://twitter.com/adisa_adekhemie) - adisabarakatadekemi@gmail.com
 
 Project Link: [STUDENT MANAGEMENT API](https://github.com/Adekemi02/student-management-system)
 
+---
 
+<!-- Acknowledgements -->
 ## Acknowledgements
 
 This project was made possible by:
