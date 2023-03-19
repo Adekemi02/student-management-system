@@ -1,6 +1,6 @@
 import unittest
 from ..import create_app
-from ..config.config import config
+from ..config.config import config_dict
 from ..utils import db
 from ..models.users import User, Admin
 from flask_jwt_extended import create_access_token
@@ -10,7 +10,7 @@ class UserTestCase(unittest.TestCase):
     
     def setUp(self):
 
-        self.app = create_app(config=config['test'])
+        self.app = create_app(config=config_dict['test'])
 
         self.appctx = self.app.app_context()
 

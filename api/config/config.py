@@ -37,7 +37,7 @@ class ProdConfig(Config):
     
 
 
-config = {
+config_dict = {
     "dev": DevConfig,
     "test": TestConfig,
     "prod": ProdConfig,
