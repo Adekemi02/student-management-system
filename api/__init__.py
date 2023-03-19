@@ -82,8 +82,8 @@ def create_app(config=config_dict['dev']):
               
             )
     
-    api.add_namespace(admin_ns)
-    api.add_namespace(auth_ns)
+    api.add_namespace(admin_ns, path='/admin')
+    api.add_namespace(auth_ns, path='/auth')
     api.add_namespace(student_ns)
     api.add_namespace(course_ns)
     
